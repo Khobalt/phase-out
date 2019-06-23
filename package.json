@@ -1,7 +1,7 @@
 {
-  "name": "simple-react-full-stack",
+  "name": "phase-out",
   "version": "1.0.0",
-  "description": "Boilerplate to build a full stack web application using React, Node.js, Express and Webpack.",
+  "description": "Boilerplate to build a full stack Phaser web application using React, Node.js, Express and Webpack.",
   "main": "src/server/index.js",
   "scripts": {
     "build": "webpack --mode production",
@@ -10,11 +10,13 @@
     "server": "nodemon src/server/index.js",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
-  "author": "Sandeep Raveesh",
+  "author": "Lee Dydo",
+  "contributors": ["Sandeep Raveesh"],
   "license": "ISC",
   "dependencies": {
     "babel-polyfill": "^6.26.0",
     "express": "^4.16.3",
+    "phaser": "^3.18.1",
     "react": "^16.5.2",
     "react-dom": "^16.5.2"
   },
