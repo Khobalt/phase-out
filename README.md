@@ -245,3 +245,9 @@ This starts a server and listens on port 8080 for connections. The app responds 
     ```
 
 Above, we have modified editor configurations. Alternatively, this can be configured at the project level by following [this article](https://medium.com/@netczuk/your-last-eslint-config-9e35bace2f99).
+
+Getting this show on the road. I'll be cleaning up this repo so that it is more phaser based.
+Thank you so much to Sandeep Raveesh, for setting up the server boilerplate so I could get this up quickly
+without jumping through so many hoops.
+
+
